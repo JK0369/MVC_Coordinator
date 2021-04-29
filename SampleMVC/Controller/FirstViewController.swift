@@ -10,6 +10,8 @@ import SnapKit
 
 class FirstViewController: UIViewController {
 
+    weak var coordinator: FirstControllerDelegate?
+
     lazy var label: UILabel = {
         let l = UILabel()
         view.addSubview(l)
@@ -31,7 +33,7 @@ class FirstViewController: UIViewController {
     }
 
     @objc private func tapAddButton() {
-
+        coordinator?.onAction()
     }
 
 }

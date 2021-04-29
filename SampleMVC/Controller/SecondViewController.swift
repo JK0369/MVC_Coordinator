@@ -10,6 +10,8 @@ import SnapKit
 
 class SecondViewController: UIViewController {
 
+    weak var coordinator: FirstControllerDelegate?
+
     private lazy var label: UILabel = {
         let l = UILabel()
         view.addSubview(l)

@@ -13,6 +13,7 @@
 		E0249010263AECB200CDF9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E024900E263AECB200CDF9F1 /* LaunchScreen.storyboard */; };
 		E083D0C1263AEF7B008A08E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D0C0263AEF7B008A08E4 /* FirstViewController.swift */; };
 		E083D0C3263AF057008A08E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D0C2263AF057008A08E4 /* SecondViewController.swift */; };
+		E083D0C6263AF132008A08E4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D0C5263AF132008A08E4 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E0249011263AECB200CDF9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E083D0C0263AEF7B008A08E4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E083D0C2263AF057008A08E4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E083D0C5263AF132008A08E4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				E0249011263AECB200CDF9F1 /* Info.plist */,
+				E083D0C4263AF122008A08E4 /* Coordinator */,
 				E083D0BC263AEE66008A08E4 /* Model */,
 				E083D0BD263AEE68008A08E4 /* View */,
 				E083D0BE263AEE6A008A08E4 /* Controller */,
@@ -125,6 +128,14 @@
 				E024900C263AECB200CDF9F1 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		E083D0C4263AF122008A08E4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E083D0C5263AF132008A08E4 /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		FBDB17E5D67299E13CDB9A9A /* Pods */ = {
@@ -249,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E083D0C6263AF132008A08E4 /* Coordinator.swift in Sources */,
 				E083D0C3263AF057008A08E4 /* SecondViewController.swift in Sources */,
 				E0249004263AECB100CDF9F1 /* AppDelegate.swift in Sources */,
 				E083D0C1263AEF7B008A08E4 /* FirstViewController.swift in Sources */,
